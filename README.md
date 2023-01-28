@@ -1,4 +1,4 @@
-# Name: Jamar Andrade | GitUsername: NocturnalProgrammerJay | GitHub Link: https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-NocturnalProgrammerJay/blob/main/README.md
+# Name: Jamar Andrade | GitUsername: NocturnalProgrammerJay | GitHub Link: https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-NocturnalProgrammerJay/blob/main/README.md 😁
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
