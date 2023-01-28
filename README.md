@@ -1,3 +1,5 @@
+# Name: Jamar Andrade | GitUsername: NocturnalProgrammerJay | GitHub Link: 
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
