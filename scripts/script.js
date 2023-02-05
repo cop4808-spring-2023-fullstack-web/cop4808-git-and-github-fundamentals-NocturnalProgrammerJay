@@ -195,6 +195,7 @@ function inputBackspace() {
   }
 }
 
+//Create new operations
 function operate(x, y, op) {
   if (op === "+") {
     return x + y;
@@ -219,13 +220,11 @@ function operate(x, y, op) {
     return scientific(x);
   }
 }
-
 function roundAccurately(num, places) {
   return parseFloat(Math.round(num + "e" + places) + "e-" + places);
 }
 
 // NEW FUNCTIONS
-
 function squareIt(num) {
   console.log(num);
   return parseFloat(Math.pow(+num, 2).toFixed(9));
