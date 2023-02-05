@@ -108,3 +108,20 @@ button {
 .percent:active {
     background-color: rgb(123, 189, 255);
 }
+
+.operator-pow, 
+.operator-log,
+.operator-sqrt,
+.operator-expo{
+
+
+    background-color: rgb(247, 45, 247);
+}
+
+.operator-pow:focus, 
+.operator-log:focus,
+.operator-sqrt:focus,
+.operator-expo:focus{
+
+    background-color: rgb(238, 160, 238)
+}

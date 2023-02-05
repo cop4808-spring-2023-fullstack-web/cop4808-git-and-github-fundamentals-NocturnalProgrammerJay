@@ -6,6 +6,7 @@
         <meta name="calc ya later" content="width=device-width">
         <title>CALC YA LATER</title>
         <link href="./styles/style.css" rel="stylesheet" type="text/css">
+        <script defer src="./scripts/script.js"></script>
     </head>
     <body>
         <header>
@@ -33,9 +34,13 @@
                 <button type="button" id="zero" class="operand" value="0" data-key="48">0</button>
                 <button type="button" class="decimal" value="." data-key="190">.</button>
                 <button type="button" class="equals" value="=" data-key="69">=</button>
+
+                <!-- New functions -->
+                <button type="button" class="operator operator-pow" value="x²" data-key="11">x²</button>
+                <button type="button" class="operator operator-log" value="ln" data-key="11">ln</button>
+                <button type="button" class="operator operator-sqrt" value="√" data-key="11">√</button>
+                <button type="button" class="operator operator-expo" value="e" data-key="11">e</button>
             </div>  
         </main>
-        
-        <script src="./scripts/script.js.download"></script>
     </body>
 </html>
