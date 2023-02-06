@@ -210,7 +210,6 @@ function operate(x, y, op) {
       return x / y;
     }
   } else if (op === "x²") {
-    console.log("executed");
     return squareIt(x);
   } else if (op === "ln") {
     return logOfX(x);
@@ -226,20 +225,24 @@ function roundAccurately(num, places) {
 
 // NEW FUNCTIONS
 function squareIt(num) {
-  console.log(num);
-  return parseFloat(Math.pow(+num, 2).toFixed(9));
+  firstOperator = null;
+  return Math.pow(+num, 2).toFixed(9);
 }
 
 function logOfX(num) {
+  firstOperator = null;
   console.log(num);
   return parseFloat(Math.log(num).toFixed(9));
 }
 function squareRoot(num) {
+  firstOperator = null;
   console.log(num);
-  return parseFloat(Math.sqrt(num).toFixed(9));
+  return Math.sqrt(num).toFixed(9);
 }
 
 function scientific(num) {
+  firstOperator = null;
   console.log(num);
-  return parseFloat(num.toExponential());
+  return num.toExponential();
 }
+se;
